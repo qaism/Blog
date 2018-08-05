@@ -173,3 +173,25 @@ h6, .h6 {
     z-index: 10;
     
 }
+
+.note-align button:first-child
+{
+  display: none;
+}
+
+.note-align button:nth-child(2)
+{
+    display: none;
+}
+
+.note-align button:nth-child(3)
+{
+    display: none;
+}
+
+.panel-heading.note-toolbar .note-para .dropdown-menu
+{
+    min-width: max-content !important;
+}
+
+

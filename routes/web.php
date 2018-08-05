@@ -30,3 +30,7 @@ Route::get('/login' , 'SessionController@create');
 Route::post('/login' , 'SessionController@store')->name('login');
 
 Route::get('/logout' , 'SessionController@destroy');
+
+Route::get('phpinfo', function () {
+    return phpinfo();
+});
